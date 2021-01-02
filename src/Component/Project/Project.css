@@ -1,0 +1,50 @@
+.project {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "projectLogo projectContent";
+    align-items: center;
+    background-color: #000;
+}
+
+.projectLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.projectContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #003FEE;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .projectLogo {
+        position: relative;
+    }
+    
+    .projectContent {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    } 
+
+    .projectLogo {
+        position: relative;
+        margin: auto;
+    }
+    
+    .projectContent {
+        margin-bottom: 200px;
+    }
+}

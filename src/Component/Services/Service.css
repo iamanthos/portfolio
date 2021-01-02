@@ -1,0 +1,99 @@
+.service {
+    height: 100%;
+}
+
+.service__header h2 {
+    margin: 25px;
+    margin-left: 80px;
+    font-weight: normal;
+    color: teal;
+}
+
+.service__header p {
+    margin: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+}
+
+.service__category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.service__category span {
+    display: flex;
+    flex-direction: row;
+    color: #c74464;
+    margin: 20px;
+    margin-left: 80px;
+}
+
+.service__category span .MuiSvgIcon-root {
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.service__category > div {
+    flex: 0 50%;
+}
+
+.service__category > div > p{
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .service__slider {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 22px;
+    }
+    
+    .service__slider div{
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .service__category {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service__slider {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        
+    }
+
+    .service__slider div {
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .service__slider {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+    .service__slider div {
+        margin: auto;
+    }
+    
+}

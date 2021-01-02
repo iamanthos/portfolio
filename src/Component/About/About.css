@@ -1,0 +1,40 @@
+.form__about {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input{
+    width: 200px;
+    margin: auto;
+    /* outline: none; */
+    /* border: none; */
+    /* border-bottom: 2px solid #999; */
+}
+
+.form__input input {
+    width: 200px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+
+.form__input span {
+    position: absolute;
+    /* margin-left: -160px; */
+
+}
+
+.form__input:focus{
+    top: 30px
+}
+
+.form__email {
+    
+}
+
+.form__submit {
+    width: 210px;
+    margin: auto;
+    border: none;
+    background-color: #F5255F;
+}

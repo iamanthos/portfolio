@@ -1,0 +1,24 @@
+.hambergurMenu {
+    z-index: 1000;
+    height: 100%;
+    background-color: red;
+    transform: translate(250px);
+}
+
+.hambergurMenu:active {
+    transition: transform 3s ease-in;
+}
+
+.hambergurMenu > ul { 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.hambergurMenu > ul > li {
+    font-size: 70px;
+    list-style-type: none;
+    color: white;
+}
+
