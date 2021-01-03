@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__content">
                     <div className="footer__link">
-                        <a href="https://tinyurl.com/yap294qo" target="_blank">Download Resume</a>
+                        <a href="https://tinyurl.com/yae42ses" target="_blank">Download Resume</a>
                     </div>
                     <form onSubmit={handleSubmit(onSubmit)} className="form__about">
                         <div className="footer__form">
